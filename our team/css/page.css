@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+header h1{ background-color: rgb(7, 179, 247); text-align: center;}
+a{color: aliceblue; text-decoration: none;}
+a:hover{ color: rgb(225, 20, 194);}
+img{
+    border-radius: 50%;
+}
+div div div.div-1-p{
+    background-color: blue;
+    width:45%;
+    box-shadow: 4px 5px 8px 8px rgba(40, 12, 247, 0.564);
+    float: left;
+    margin: 20px;
+    display: block;
+}
+.box-1{
+
+}
+
+.main{
+    width: 100%;
+
+}
+
+
+  @media only screen and (max-width:900px) {
+    div div div.div-1-p{
+        width:90%;
+    }
+    
+  }
